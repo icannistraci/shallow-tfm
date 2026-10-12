@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "shallow-tfm"
+version = "1.0.0"
+description = "Tabular foundation models are effectively shallow: training-free block replacement by a closed-form affine translator"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.10"
+dependencies = [
+    "torch>=2.0",
+    "numpy",
+    "pandas",
+    "scikit-learn",
+    "openml",
+    "fire",
+    "huggingface-hub",
+]
+
+[project.optional-dependencies]
+# Base environment models: TabPFNv2 (tabpfn 2.x), TabICL, TabDPT, TabFM.
+models = ["tabpfn>=2.0,<3", "tabicl>=2.1", "tabdpt>=1.1", "tabfm"]
+dev = ["pytest", "ruff"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I"]
+ignore = ["E402", "E501", "E731", "E741"]

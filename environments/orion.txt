@@ -1,0 +1,4 @@
+# Orion-MSP and Orion-BiX (classification only), installed from the upstream repositories:
+#   python -m venv --system-site-packages .venv-orion && .venv-orion/bin/pip install -r environments/orion.txt
+orion-msp @ git+https://github.com/Lexsi-Labs/Orion-MSP.git@c89aea6dc425bc701a9557fdd53e3dc3d766f983
+orion-bix @ git+https://github.com/Lexsi-Labs/Orion-BiX.git@060d34606f56c591c47e0b6cbe971e5f5035f33e

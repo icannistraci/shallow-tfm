@@ -1,0 +1,26 @@
+# Experiment outputs, datasets and rendered artefacts
+/results
+/paper
+/data/cache/
+/data/physionet/
+/logs/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv*
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Upstream LimiX checkout (see environments/limix.txt)
+/third_party/LimiX

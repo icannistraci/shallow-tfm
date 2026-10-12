@@ -1,0 +1,252 @@
+name,source,openml_id,openml_name,n_instances,n_features,n_numeric,n_symbolic,n_classes,task,n_feat,model_tier,include,exclude_reason,flag_small_cal,origin,domain
+cc18_11,tabzilla,11,balance-scale,625,5,4,1,3,classification,4,all,True,,True,synthetic-rule,games-logic
+cc18_1462,cc18,1462,banknote-authentication,1372,5,4,1,2,classification,4,all,True,,False,observed,image-signal
+cc18_1464,cc18,1464,blood-transfusion-service-center,748,5,4,1,2,classification,4,all,True,,True,observed,medical
+cc18_469,cc18,469,analcatdata_dmft,797,5,0,5,6,classification,4,all,True,,True,observed,medical
+cc18_1489,tabzilla,1489,phoneme,5404,6,5,1,2,classification,5,all,True,,False,observed,image-signal
+cc18_40983,cc18,40983,wilt,4839,6,5,1,2,classification,5,all,True,,False,observed,image-signal
+tz_934,tabzilla,934,socmob,1156,6,1,5,2,classification,5,all,True,,False,observed,other
+cc18_18,cc18,18,mfeat-morphological,2000,7,6,1,10,classification,6,all,True,,False,observed,image-signal
+cc18_40975,cc18,40975,car,1728,7,0,7,4,classification,6,all,True,,False,enumerated-game,games-logic
+cc18_41027,tabzilla,41027,jungle_chess_2pcs_raw_endgame_complete,44819,7,6,1,3,classification,6,all,True,,False,enumerated-game,games-logic
+tz_334,tabzilla,334,monks-problems-2,601,7,0,7,2,classification,6,all,True,,True,synthetic-rule,games-logic
+grin_44120,grinsztajn,44120,electricity,38474,8,7,1,2,classification,7,all,True,,False,observed,engineering
+grin_44126,grinsztajn,44126,bank-marketing,10578,8,7,1,2,classification,7,all,True,,False,observed,finance-business
+grin_45022,grinsztajn,45022,Diabetes130US,71090,8,7,1,2,classification,7,all,True,,False,observed,medical
+tz_1169,tabzilla,1169,airlines,539383,8,3,5,2,classification,7,all,True,,False,observed,other
+tz_1459,tabzilla,1459,artificial-characters,10218,8,7,1,10,classification,7,all,True,,False,synthetic-rule,image-signal
+cc18_151,tabzilla,151,electricity,45312,9,7,2,2,classification,8,all,True,,False,observed,engineering
+cc18_37,cc18,37,diabetes,768,9,8,1,2,classification,8,all,True,,True,observed,medical
+grin_44156,grinsztajn,44156,electricity,38474,9,7,2,2,classification,8,all,True,,False,observed,engineering
+grin_45028,grinsztajn,45028,california,20634,9,8,1,2,classification,8,all,True,,False,observed,other
+cc18_15,cc18,15,breast-w,699,10,9,1,2,classification,9,all,True,,True,observed,medical
+cc18_23,cc18,23,cmc,1473,10,2,8,3,classification,9,all,True,,False,observed,medical
+cc18_50,cc18,50,tic-tac-toe,958,10,0,10,2,classification,9,all,True,,False,enumerated-game,games-logic
+tz_470,tabzilla,470,profb,672,10,5,5,2,classification,9,all,True,,True,observed,other
+cc18_1480,cc18,1480,ilpd,583,11,9,2,2,classification,10,all,True,,True,observed,medical
+grin_44089,grinsztajn,44089,credit,16714,11,10,1,2,classification,10,all,True,,False,observed,finance-business
+grin_44121,grinsztajn,44121,covertype,566602,11,10,1,2,classification,10,all,True,,False,observed,other
+magic_telescope,grinsztajn,44125,MagicTelescope,13376,11,10,1,2,classification,10,all,True,,False,simulated,science-physics
+tz_1567,tabzilla,1567,poker-hand,1025009,11,10,1,10,classification,10,all,True,,False,enumerated-game,games-logic
+grin_45039,grinsztajn,45039,compas-two-years,4966,12,3,9,2,classification,11,all,True,,False,observed,other
+cc18_23381,cc18,23381,dresses-sales,500,13,1,12,2,classification,12,all,True,,True,observed,finance-business
+cc18_307,cc18,307,vowel,990,13,10,3,11,classification,12,all,True,,False,observed,image-signal
+cc18_1590,cc18,1590,adult,48842,15,6,9,2,classification,14,all,True,,False,observed,finance-business
+tz_40981,tabzilla,40981,Australian,690,15,6,9,2,classification,14,all,True,,True,observed,finance-business
+cc18_29,tabzilla,29,credit-approval,690,16,6,10,2,classification,15,all,True,,True,observed,finance-business
+cc18_1461,cc18,1461,bank-marketing,45211,17,7,10,2,classification,16,all,True,,False,observed,finance-business
+cc18_32,cc18,32,pendigits,10992,17,16,1,10,classification,16,all,True,,False,observed,image-signal
+house_16h,grinsztajn,44123,house_16H,13488,17,16,1,2,classification,16,all,True,,False,observed,other
+compas_two_years,grinsztajn,44162,compass,16644,18,8,10,2,classification,17,all,True,,False,observed,other
+cc18_54,tabzilla,54,vehicle,846,19,18,1,4,classification,18,all,True,,False,observed,image-signal
+tz_846,tabzilla,846,elevators,16599,19,18,1,2,classification,18,all,True,,False,observed,engineering
+cc18_188,cc18,188,eucalyptus,736,20,14,6,5,classification,19,all,True,,True,observed,science-physics
+cc18_40984,cc18,40984,segment,2310,20,19,1,7,classification,19,all,True,,False,observed,image-signal
+cc18_31,tabzilla,31,credit-g,1000,21,7,14,2,classification,20,all,True,,False,observed,finance-business
+cc18_40701,cc18,40701,churn,5000,21,16,5,2,classification,20,all,True,,False,observed,finance-business
+cc18_40994,cc18,40994,climate-model-simulation-crashes,540,21,20,1,2,classification,20,all,True,,True,simulated,science-physics
+grin_44130,grinsztajn,44130,eye_movements,7608,21,20,1,2,classification,20,all,True,,False,observed,image-signal
+grin_45020,grinsztajn,45020,default-of-credit-card-clients,13272,21,20,1,2,classification,20,all,True,,False,observed,finance-business
+sylvine,tabzilla,41146,sylvine,5124,21,20,1,2,classification,20,all,True,,False,anonymised,other
+cc18_1053,cc18,1053,jm1,10885,22,21,1,2,classification,21,all,True,,False,observed,engineering
+cc18_1063,cc18,1063,kc2,522,22,21,1,2,classification,21,all,True,,True,observed,engineering
+cc18_1067,tabzilla,1067,kc1,2109,22,21,1,2,classification,21,all,True,,False,observed,engineering
+cc18_1068,cc18,1068,pc1,1109,22,21,1,2,classification,21,all,True,,False,observed,engineering
+cc18_23517,cc18,23517,numerai28.6,96320,22,21,1,2,classification,21,all,True,,False,anonymised,other
+grin_45036,grinsztajn,45036,default-of-credit-card-clients,13272,22,20,2,2,classification,21,all,True,,False,observed,finance-business
+grin_45026,grinsztajn,45026,heloc,10000,23,22,1,2,classification,22,all,True,,False,observed,finance-business
+grin_44157,grinsztajn,44157,eye_movements,7608,24,20,4,2,classification,23,all,True,,False,observed,image-signal
+cc18_1497,cc18,1497,wall-robot-navigation,5456,25,24,1,4,classification,24,all,True,,False,observed,engineering
+grin_44129,grinsztajn,44129,Higgs,940160,25,24,1,2,classification,24,all,True,,False,simulated,science-physics
+pol,grinsztajn,44122,pol,10082,27,26,1,2,classification,26,all,True,,False,observed,engineering
+cc18_40982,cc18,40982,steel-plates-fault,1941,28,27,1,7,classification,27,all,True,,False,observed,engineering
+eye_movements,tabzilla,1044,eye_movements,10936,28,24,4,3,classification,27,all,True,,False,observed,image-signal
+higgs,tabzilla,23512,higgs,98050,29,28,1,2,classification,28,all,True,,False,simulated,science-physics
+cc18_38,cc18,38,sick,3772,30,7,23,2,classification,29,all,True,,False,observed,medical
+cc18_1510,cc18,1510,wdbc,569,31,30,1,2,classification,30,all,True,,True,observed,medical
+cc18_4534,cc18,4534,PhishingWebsites,11055,31,0,31,2,classification,30,all,True,,False,observed,text
+grin_45035,grinsztajn,45035,albert,58252,32,21,11,2,classification,31,all,True,,False,anonymised,other
+cc18_4538,tabzilla,4538,GesturePhaseSegmentationProcessed,9873,33,32,1,5,classification,32,all,True,,False,observed,image-signal
+grin_45038,grinsztajn,45038,road-safety,111762,33,29,4,2,classification,32,all,True,,False,observed,other
+road_safety,grinsztajn,44161,road-safety,111762,33,29,4,2,classification,32,all,True,,False,observed,other
+cc18_182,cc18,182,satimage,6430,37,36,1,6,classification,36,all,True,,False,observed,image-signal
+cc18_3,cc18,3,kr-vs-kp,3196,37,0,37,2,classification,36,all,True,,False,enumerated-game,games-logic
+cc18_1049,cc18,1049,pc4,1458,38,37,1,2,classification,37,all,True,,False,observed,engineering
+cc18_1050,cc18,1050,pc3,1563,38,37,1,2,classification,37,all,True,,False,observed,engineering
+cc18_6332,cc18,6332,cylinder-bands,540,40,18,22,2,classification,39,all,True,,True,observed,engineering
+cc18_40499,cc18,40499,texture,5500,41,40,1,11,classification,40,all,True,,False,observed,image-signal
+cc18_1494,tabzilla,1494,qsar-biodeg,1055,42,41,1,2,classification,41,all,True,,False,observed,science-physics
+cc18_40668,cc18,40668,connect-4,67557,43,0,43,3,classification,42,all,True,,False,enumerated-game,games-logic
+cc18_22,tabzilla,22,mfeat-zernike,2000,48,47,1,10,classification,47,all,True,,False,observed,image-signal
+tz_1043,tabzilla,1043,ada_agnostic,4562,49,48,1,2,classification,48,all,True,,False,anonymised,other
+grin_44128,grinsztajn,44128,MiniBooNE,72998,51,50,1,2,classification,50,all,True,,False,observed,science-physics
+miniboone,tabzilla,41150,MiniBooNE,130064,51,50,1,2,classification,50,all,True,,False,observed,science-physics
+cc18_1475,cc18,1475,first-order-theorem-proving,6118,52,51,1,6,classification,51,all,True,,False,observed,games-logic
+covertype,tabzilla,1596,covertype,581012,55,10,45,7,classification,54,all,True,,False,observed,other
+grin_44159,grinsztajn,44159,covertype,423680,55,10,45,2,classification,54,all,True,,False,observed,other
+grin_45021,grinsztajn,45021,jannis,57580,55,54,1,2,classification,54,all,True,,False,anonymised,other
+jannis,tabzilla,41168,jannis,83733,55,54,1,4,classification,54,all,True,,False,anonymised,other
+cc18_44,cc18,44,spambase,4601,58,57,1,2,classification,57,all,True,,False,observed,text
+cc18_46,tabzilla,46,splice,3190,61,0,61,3,classification,60,all,True,,False,observed,science-physics
+cc18_16,cc18,16,mfeat-karhunen,2000,65,64,1,10,classification,64,all,True,,False,observed,image-signal
+cc18_28,cc18,28,optdigits,5620,65,64,1,10,classification,64,all,True,,False,observed,image-signal
+cc18_458,cc18,458,analcatdata_authorship,841,71,70,1,4,classification,70,all,True,,False,observed,text
+cc18_1487,cc18,1487,ozone-level-8hr,2534,73,72,1,2,classification,72,all,True,,False,observed,science-physics
+cc18_14,tabzilla,14,mfeat-fourier,2000,77,76,1,10,classification,76,all,True,,False,observed,image-signal
+tz_41147,tabzilla,41147,albert,425240,79,26,53,2,classification,78,all,True,,False,anonymised,other
+cc18_40966,cc18,40966,MiceProtein,1080,82,77,5,8,classification,81,all,True,,False,observed,medical
+cc18_1486,tabzilla,1486,nomao,34465,119,89,30,2,classification,118,all,True,,False,observed,text
+tz_40536,tabzilla,40536,SpeedDating,8378,121,59,62,2,classification,120,all,True,,False,observed,other
+jasmine,tabzilla,41143,jasmine,2984,145,8,137,2,classification,144,all,True,,False,anonymised,other
+cc18_40670,cc18,40670,dna,3186,181,0,181,3,classification,180,single_axis,True,,False,observed,science-physics
+volkert,tabzilla,41166,volkert,58310,181,180,1,10,classification,180,single_axis,True,,False,anonymised,other
+cc18_12,cc18,12,mfeat-factors,2000,217,216,1,10,classification,216,single_axis,True,,False,observed,image-signal
+cc18_40979,cc18,40979,mfeat-pixel,2000,241,240,1,10,classification,240,single_axis,True,,False,observed,image-signal
+cc18_1501,cc18,1501,semeion,1593,257,256,1,10,classification,256,single_axis,True,,False,observed,image-signal
+philippine,tabzilla,41145,philippine,5832,309,308,1,2,classification,308,single_axis,True,,False,anonymised,other
+grin_45019,grinsztajn,45019,Bioresponse,3434,420,419,1,2,classification,419,single_axis,True,,False,observed,science-physics
+cc18_1485,cc18,1485,madelon,2600,501,500,1,2,classification,500,single_axis,True,,False,synthetic-rule,other
+cc18_1478,cc18,1478,har,10299,562,561,1,6,classification,561,single_axis,False,561 features > 500-feature TFM ceiling; no feature-subsampling policy adopted,False,observed,image-signal
+cc18_40996,cc18,40996,Fashion-MNIST,70000,785,784,1,10,classification,784,single_axis,False,784 features > 500-feature TFM ceiling; no feature-subsampling policy adopted,False,observed,image-signal
+cc18_554,cc18,554,mnist_784,70000,785,784,1,10,classification,784,single_axis,False,784 features > 500-feature TFM ceiling; no feature-subsampling policy adopted,False,observed,image-signal
+fabert,tabzilla,41164,fabert,8237,801,800,1,7,classification,800,single_axis,False,800 features > 500-feature TFM ceiling; no feature-subsampling policy adopted,False,anonymised,other
+cc18_1468,tabzilla,1468,cnae-9,1080,857,856,1,9,classification,856,single_axis,False,856 features > 500-feature TFM ceiling; no feature-subsampling policy adopted,False,observed,text
+cc18_40978,cc18,40978,Internet-Advertisements,3279,1559,3,1556,2,classification,1558,single_axis,False,1558 features > 500-feature TFM ceiling; no feature-subsampling policy adopted,False,observed,text
+christine,tabzilla,41142,christine,5418,1637,1599,38,2,classification,1636,single_axis,False,1636 features > 500-feature TFM ceiling; no feature-subsampling policy adopted,False,anonymised,other
+cc18_4134,tabzilla,4134,Bioresponse,3751,1777,1776,1,2,classification,1776,single_axis,False,1776 features > 500-feature TFM ceiling; no feature-subsampling policy adopted,False,observed,science-physics
+grin_44146,grinsztajn,44146,medical_charges,163065,4,4,0,0,regression,3,all,True,,False,observed,medical
+grin_45048,grinsztajn,45048,medical_charges,163065,4,4,0,0,regression,3,all,True,,False,observed,medical
+grin_44056,grinsztajn,44056,visualizing_soil,8641,5,4,1,0,regression,4,all,True,,False,observed,science-physics
+grin_45043,grinsztajn,45043,seattlecrime6,52031,5,3,2,0,regression,4,all,True,,False,observed,other
+grin_45047,grinsztajn,45047,Airlines_DepDelay_1M,1000000,6,6,0,0,regression,5,all,True,,False,observed,other
+grin_44068,grinsztajn,44068,particulate-matter-ukair-2017,394299,7,4,3,0,regression,6,all,True,,False,observed,science-physics
+grin_44140,grinsztajn,44140,diamonds,53940,7,7,0,0,regression,6,all,True,,False,observed,other
+grin_44142,grinsztajn,44142,Bike_Sharing_Demand,17379,7,7,0,0,regression,6,all,True,,False,observed,other
+grin_44145,grinsztajn,44145,sulfur,10081,7,7,0,0,regression,6,all,True,,False,observed,engineering
+grin_44055,grinsztajn,44055,analcatdata_supreme,4052,8,3,5,0,regression,7,all,True,,False,observed,other
+grin_45033,grinsztajn,45033,abalone,4177,8,8,0,0,regression,7,all,True,,False,observed,science-physics
+grin_44138,grinsztajn,44138,houses,20640,9,9,0,0,regression,8,all,True,,False,observed,other
+grin_44141,grinsztajn,44141,Brazilian_houses,10692,9,9,0,0,regression,8,all,True,,False,observed,other
+grin_45034,grinsztajn,45034,delays_zurich_transport,5465575,9,9,0,0,regression,8,all,True,,False,observed,other
+grin_45042,grinsztajn,45042,abalone,4177,9,8,1,0,regression,8,all,True,,False,observed,science-physics
+grin_44059,grinsztajn,44059,diamonds,53940,10,7,3,0,regression,9,all,True,,False,observed,other
+grin_44069,grinsztajn,44069,SGEMM_GPU_kernel_performance,241600,10,4,6,0,regression,9,all,True,,False,observed,engineering
+grin_44143,grinsztajn,44143,nyc-taxi-green-dec-2016,581835,10,10,0,0,regression,9,all,True,,False,observed,other
+grin_44062,grinsztajn,44062,Brazilian_houses,10692,12,9,3,0,regression,11,all,True,,False,observed,other
+grin_44063,grinsztajn,44063,Bike_Sharing_Demand,17379,12,7,5,0,regression,11,all,True,,False,observed,other
+grin_44136,grinsztajn,44136,wine_quality,6497,12,12,0,0,regression,11,all,True,,False,observed,science-physics
+grin_45045,grinsztajn,45045,delays_zurich_transport,5465575,12,9,3,0,regression,11,all,True,,False,observed,other
+grin_44147,grinsztajn,44147,MiamiHousing2016,13932,14,14,0,0,regression,13,all,True,,False,observed,other
+house_sales,grinsztajn,44144,house_sales,21613,16,16,0,0,regression,15,all,True,,False,observed,other
+grin_44065,grinsztajn,44065,nyc-taxi-green-dec-2016,581835,17,10,7,0,regression,16,all,True,,False,observed,other
+grin_44134,grinsztajn,44134,elevators,16599,17,17,0,0,regression,16,all,True,,False,observed,engineering
+grin_44139,grinsztajn,44139,house_16H,22784,17,17,0,0,regression,16,all,True,,False,observed,other
+grin_44066,grinsztajn,44066,house_sales,21613,18,16,2,0,regression,17,all,True,,False,observed,other
+grin_44132,grinsztajn,44132,cpu_act,8192,22,22,0,0,regression,21,all,True,,False,observed,engineering
+grin_44133,grinsztajn,44133,pol,15000,27,27,0,0,regression,26,all,True,,False,observed,engineering
+grin_44137,grinsztajn,44137,Ailerons,13750,34,34,0,0,regression,33,all,True,,False,observed,engineering
+grin_45032,grinsztajn,45032,yprop_4_1,8885,43,43,0,0,regression,42,all,True,,False,observed,science-physics
+superconduct,grinsztajn,44148,superconduct,21263,80,80,0,0,regression,79,all,True,,False,observed,science-physics
+grin_45046,grinsztajn,45046,Allstate_Claims_Severity,188318,125,15,110,0,regression,124,all,True,,False,observed,finance-business
+connect4,tabzilla,1591,connect-4,67557,127,127,0,0,regression,126,all,True,,False,enumerated-game,games-logic
+grin_45041,grinsztajn,45041,topo_2_1,8885,256,253,3,0,regression,255,single_axis,True,,False,observed,science-physics
+grin_44061,grinsztajn,44061,Mercedes_Benz_Greener_Manufacturing,4209,360,1,359,0,regression,359,single_axis,True,,False,observed,engineering
+tz_51,tabzilla,51,heart-h,294,14,6,8,2,classification,13,all,False,too few rows (294),False,observed,medical
+cc18_6,cc18,6,letter,20000,17,16,1,26,classification,16,all,False,too many classes (26),False,observed,image-signal
+tz_10,tabzilla,10,lymph,148,19,3,16,4,classification,18,all,False,too few rows (148),False,observed,medical
+tz_25,tabzilla,25,colic,368,27,7,20,2,classification,26,all,False,too few rows (368),False,observed,medical
+tz_1493,tabzilla,1493,one-hundred-plants-texture,1599,65,64,1,100,classification,64,all,False,too many classes (100),False,observed,image-signal
+tz_7,tabzilla,7,audiology,226,70,0,70,24,classification,69,all,False,too few rows (226),False,observed,medical
+cc18_300,cc18,300,isolet,7797,618,617,1,26,classification,617,single_axis,False,too many classes (26),False,observed,image-signal
+cc18_40923,cc18,40923,Devnagari-Script,92000,1025,1024,1,46,classification,1024,single_axis,False,too many classes (46),False,observed,image-signal
+cc18_40927,cc18,40927,CIFAR_10,60000,3073,3072,1,10,classification,3072,single_axis,False,extreme high-dim (3072 feat),False,observed,image-signal
+tz_41159,tabzilla,41159,guillermo,20000,4297,4296,1,2,classification,4296,single_axis,False,extreme high-dim (4296 feat),False,anonymised,other
+ta_46913,tabarena,46913,blood-transfusion-service-center,748,5,4,1,2,classification,4,all,True,,True,observed,medical
+ta_46927,tabarena,46927,Fitness_Club,1500,7,3,4,2,classification,6,all,True,,False,observed,finance-business
+ta_46941,tabarena,46941,maternal_health_risk,1014,7,6,1,3,classification,6,all,True,,False,observed,medical
+ta_46921,tabarena,46921,diabetes,768,9,8,1,2,classification,8,all,True,,True,observed,medical
+ta_46905,tabarena,46905,Amazon_employee_access,32769,10,0,10,2,classification,9,all,True,,False,observed,finance-business
+ta_46963,tabarena,46963,website_phishing,1353,10,0,10,3,classification,9,all,True,,False,observed,text
+ta_46911,tabarena,46911,Bank_Customer_Churn,10000,11,6,5,2,classification,10,all,True,,False,observed,finance-business
+ta_46924,tabarena,46924,E-CommereShippingData,10999,11,6,5,2,classification,10,all,True,,False,observed,finance-business
+ta_46929,tabarena,46929,GiveMeSomeCredit,150000,11,10,1,2,classification,10,all,True,,False,observed,finance-business
+ta_46955,tabarena,46955,SDSS17,78053,12,9,3,3,classification,11,all,True,,False,observed,science-physics
+ta_46935,tabarena,46935,HR_Analytics_Job_Change_of_Data_Scientists,19158,13,2,10,2,classification,12,all,True,,False,observed,finance-business
+ta_46910,tabarena,46910,bank-marketing,45211,14,5,8,2,classification,13,all,True,,False,observed,finance-business
+ta_46938,tabarena,46938,Is-this-a-good-customer,1723,14,5,9,2,classification,13,all,True,,False,observed,finance-business
+ta_46956,tabarena,46956,seismic-bumps,2584,16,11,4,2,classification,15,all,True,,False,observed,engineering
+ta_46947,tabarena,46947,online_shoppers_intention,12330,18,10,8,2,classification,17,all,True,,False,observed,finance-business
+ta_46915,tabarena,46915,churn,5000,20,15,5,2,classification,19,all,True,,False,observed,finance-business
+ta_46918,tabarena,46918,credit-g,1000,21,7,14,2,classification,20,all,True,,False,observed,finance-business
+ta_46920,tabarena,46920,customer_satisfaction_in_airline,129880,22,5,17,2,classification,21,all,True,,False,observed,finance-business
+ta_46979,tabarena,46979,jm1,10885,22,21,1,2,classification,21,all,True,,False,observed,engineering
+ta_46919,tabarena,46919,credit_card_clients_default,30000,24,20,4,2,classification,23,all,True,,False,observed,finance-business
+ta_46932,tabarena,46932,heloc,10459,24,23,1,2,classification,23,all,True,,False,observed,finance-business
+ta_46937,tabarena,46937,in_vehicle_coupon_recommendation,12684,25,2,22,2,classification,24,all,True,,False,observed,finance-business
+ta_46940,tabarena,46940,Marketing_Campaign,2240,26,16,9,2,classification,25,all,True,,False,observed,finance-business
+ta_46930,tabarena,46930,hazelnut-spread-contaminant-detection,2400,31,30,1,2,classification,30,all,True,,False,observed,science-physics
+ta_46960,tabarena,46960,students_dropout_and_academic_success,4424,37,19,18,3,classification,36,all,True,,False,observed,other
+ta_46906,tabarena,46906,anneal,898,39,6,33,5,classification,38,all,True,,False,observed,engineering
+ta_46952,tabarena,46952,qsar-biodeg,1054,42,36,6,2,classification,41,all,True,,False,observed,science-physics
+ta_46922,tabarena,46922,Diabetes130US,71518,48,8,40,2,classification,47,all,True,,False,observed,medical
+ta_46958,tabarena,46958,splice,3190,61,0,61,3,classification,60,all,True,,False,observed,science-physics
+ta_46950,tabarena,46950,polish_companies_bankruptcy,5910,65,64,1,2,classification,64,all,True,,False,observed,finance-business
+ta_46916,tabarena,46916,coil2000_insurance_policies,9822,86,80,4,2,classification,85,all,True,,False,observed,finance-business
+ta_46969,tabarena,46969,NATICUSdroid,7491,87,0,87,2,classification,86,all,True,,False,observed,engineering
+ta_46962,tabarena,46962,taiwanese_bankruptcy_prediction,6819,95,94,1,2,classification,94,all,True,,False,observed,finance-business
+ta_46980,tabarena,46980,MIC,1699,112,17,95,8,classification,111,all,True,,False,observed,other
+ta_46908,tabarena,46908,APSFailure,76000,171,170,1,2,classification,170,single_axis,True,,False,observed,engineering
+ta_46939,tabarena,46939,kddcup09_appetency,50000,213,174,39,2,classification,212,single_axis,True,,False,observed,finance-business
+ta_46933,tabarena,46933,hiva_agnostic,3845,1618,0,1618,3,classification,1617,single_axis,False,1617 features > 500-feature TFM ceiling; no feature-subsampling policy adopted,False,anonymised,other
+ta_46912,tabarena,46912,Bioresponse,3751,1777,1776,1,2,classification,1776,single_axis,False,1776 features > 500-feature TFM ceiling; no feature-subsampling policy adopted,False,observed,science-physics
+ta_46904,tabarena,46904,airfoil_self_noise,1503,6,5,1,0,regression,5,all,True,,False,observed,engineering
+ta_46931,tabarena,46931,healthcare_insurance_expenses,1338,7,4,3,0,regression,6,all,True,,False,observed,finance-business
+ta_46954,tabarena,46954,QSAR_fish_toxicity,907,7,7,0,0,regression,6,all,True,,False,observed,science-physics
+ta_46907,tabarena,46907,Another-Dataset-on-used-Fiat-500,1538,8,7,1,0,regression,7,all,True,,False,observed,finance-business
+ta_46917,tabarena,46917,concrete_compressive_strength,1030,9,9,0,0,regression,8,all,True,,False,observed,engineering
+ta_46934,tabarena,46934,houses,20640,9,9,0,0,regression,8,all,True,,False,observed,other
+ta_46923,tabarena,46923,diamonds,53940,10,7,3,0,regression,9,all,True,,False,observed,other
+ta_46928,tabarena,46928,Food_Delivery_Time,45451,10,7,3,0,regression,9,all,True,,False,observed,other
+ta_46949,tabarena,46949,physiochemical_protein,45730,10,10,0,0,regression,9,all,True,,False,observed,medical
+ta_46964,tabarena,46964,wine_quality,6497,13,12,1,0,regression,12,all,True,,False,observed,science-physics
+ta_46942,tabarena,46942,miami_housing,13776,16,15,1,0,regression,15,all,True,,False,observed,other
+ta_46961,tabarena,46961,superconductivity,21263,82,82,0,0,regression,81,all,True,,False,observed,science-physics
+ta_46953,tabarena,46953,QSAR-TID-11,5742,1025,1025,0,0,regression,1024,single_axis,False,1024 features > 500-feature TFM ceiling; no feature-subsampling policy adopted,False,observed,science-physics
+ctr23_44956,ctr23,44956,abalone,4177,9,8,1,0,regression,8,all,False,"duplicate of openml_name
+abalone    grin_45033
+abalone    grin_45042
+Name: name, dtype: object",False,observed,science-physics
+ctr23_44957,ctr23,44957,airfoil_self_noise,1503,6,6,0,0,regression,5,all,False,duplicate of ta_46904,False,observed,engineering
+ctr23_44958,ctr23,44958,auction_verification,2043,8,6,2,0,regression,7,all,True,,False,observed,games-logic
+ctr23_44959,ctr23,44959,concrete_compressive_strength,1030,9,9,0,0,regression,8,all,False,duplicate of ta_46917,False,observed,engineering
+ctr23_44963,ctr23,44963,physiochemical_protein,45730,10,10,0,0,regression,9,all,False,duplicate of ta_46949,False,observed,medical
+ctr23_44964,ctr23,44964,superconductivity,21263,82,82,0,0,regression,81,all,False,duplicate of ta_46961,False,observed,science-physics
+ctr23_44965,ctr23,44965,geographical_origin_of_music,1059,117,117,0,0,regression,116,all,True,,False,observed,image-signal
+ctr23_44966,ctr23,44966,solar_flare,1066,11,3,8,0,regression,10,all,True,,False,observed,science-physics
+ctr23_44969,ctr23,44969,naval_propulsion_plant,11934,15,15,0,0,regression,14,all,True,,False,simulated,engineering
+ctr23_44971,ctr23,44971,white_wine,4898,12,12,0,0,regression,11,all,True,,False,observed,science-physics
+ctr23_44972,ctr23,44972,red_wine,1599,12,12,0,0,regression,11,all,True,,False,observed,science-physics
+ctr23_44973,ctr23,44973,grid_stability,10000,13,13,0,0,regression,12,all,True,,False,simulated,engineering
+ctr23_44974,ctr23,44974,video_transcoding,68784,19,17,2,0,regression,18,all,True,,False,observed,engineering
+ctr23_44975,ctr23,44975,wave_energy,72000,49,49,0,0,regression,48,all,True,,False,simulated,engineering
+ctr23_44976,ctr23,44976,sarcos,48933,22,22,0,0,regression,21,all,True,,False,observed,engineering
+ctr23_44977,ctr23,44977,california_housing,20640,9,9,0,0,regression,8,all,True,,False,observed,other
+ctr23_44978,ctr23,44978,cpu_activity,8192,22,22,0,0,regression,21,all,True,,False,observed,engineering
+ctr23_44979,ctr23,44979,diamonds,53940,10,7,3,0,regression,9,all,False,duplicate of ta_46923,False,observed,other
+ctr23_44980,ctr23,44980,kin8nm,8192,9,9,0,0,regression,8,all,True,,False,simulated,engineering
+ctr23_44981,ctr23,44981,pumadyn32nh,8192,33,33,0,0,regression,32,all,True,,False,simulated,engineering
+ctr23_44983,ctr23,44983,miami_housing,13932,16,16,0,0,regression,15,all,False,duplicate of ta_46942,False,observed,other
+ctr23_44984,ctr23,44984,cps88wages,28155,7,3,4,0,regression,6,all,True,,False,observed,finance-business
+ctr23_44987,ctr23,44987,socmob,1156,6,2,4,0,regression,5,all,True,,False,observed,other
+ctr23_44989,ctr23,44989,kings_county,21613,22,18,4,0,regression,21,all,True,,False,observed,other
+ctr23_44990,ctr23,44990,brazilian_houses,10692,10,6,4,0,regression,9,all,True,,False,observed,other
+ctr23_44992,ctr23,44992,fps_benchmark,24624,44,31,13,0,regression,43,all,True,,False,observed,engineering
+ctr23_44993,ctr23,44993,health_insurance,22272,12,5,7,0,regression,11,all,True,,False,observed,finance-business
+ctr23_45012,ctr23,45012,fifa,19178,29,28,1,0,regression,28,all,True,,False,observed,other
+ctr23_41021,ctr23,41021,Moneyball,1232,15,9,6,0,regression,14,all,True,,False,observed,finance-business
+ctr23_44960,ctr23,44960,energy_efficiency,768,9,9,0,0,regression,8,all,True,,False,observed,engineering
+ctr23_44962,ctr23,44962,forest_fires,517,13,13,0,0,regression,12,all,True,,True,observed,science-physics
+ctr23_44967,ctr23,44967,student_performance_por,649,31,14,17,0,regression,30,all,True,,True,observed,other
+ctr23_44970,ctr23,44970,QSAR_fish_toxicity,908,7,7,0,0,regression,6,all,False,duplicate of ta_46954,False,observed,science-physics
+ctr23_44994,ctr23,44994,cars,804,18,18,0,0,regression,17,all,True,,False,observed,finance-business
+ctr23_45402,ctr23,45402,space_ga,3107,7,7,0,0,regression,6,all,True,,False,observed,other

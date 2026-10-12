@@ -1,0 +1,12 @@
+# Base environment (Python 3.12, CUDA 12.8): TabPFNv2, TabICL, TabDPT, TabFM.
+torch==2.10.0
+numpy==2.2.4
+pandas==2.3.3
+scikit-learn==1.6.1
+openml==0.15.1
+fire==0.7.1
+huggingface-hub==0.35.3
+tabpfn==2.0.9
+tabicl==2.1.0
+tabdpt==1.1.13
+tabfm==1.0.1

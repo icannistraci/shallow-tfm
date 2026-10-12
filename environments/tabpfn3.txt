@@ -1,0 +1,5 @@
+# TabPFN-3 needs tabpfn>=8, which changes the TabPFNv2 code path; it runs in its own
+# environment created with --system-site-packages on top of the base one:
+#   python -m venv --system-site-packages .venv-tabpfn3 && .venv-tabpfn3/bin/pip install -r environments/tabpfn3.txt
+# The TabPFN-3 weights are license-gated: set TABPFN_TOKEN (https://ux.priorlabs.ai).
+tabpfn==8.5.0

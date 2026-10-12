@@ -1,0 +1,7 @@
+# LimiX-16M is loaded from a checkout of the upstream repository (not pip-installable):
+#   git clone https://github.com/limix-ldm-ai/LimiX third_party/LimiX && git -C third_party/LimiX checkout 61ede97
+#   python -m venv --system-site-packages .venv-limix && .venv-limix/bin/pip install -r environments/limix.txt
+# The checkpoint is downloaded from the Hugging Face Hub (stable-ai/LimiX-16M) on first use.
+kditransform==1.2.0
+einops==0.8.2
+numba
